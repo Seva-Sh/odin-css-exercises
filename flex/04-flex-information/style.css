@@ -14,7 +14,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  padding-bottom: 32px;
+  padding: 8px 0 32px 0;
 }
 
 /* do not edit this footer */
@@ -33,13 +33,16 @@ img {
 .items {
   display: flex;
   gap: 52px;
-
+  inline-size: auto;
+  flex: 1;
 }
 
 .plant {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 200px;
+  /* width: 200px; */
+  
 }
